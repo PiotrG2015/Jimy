@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Jimy</string>
+    <string name="facebook_app_id">APP_ID</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nickname">Nickname</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_main">Categories</string>
+    <string name="title_activity_sign_in">Sign In</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_account">Create account</string>
+    <string name="logout">Logout</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_email">Enter e-mail</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="options_exit_text">Exit</string>
+    <string name="title_activity_forgotten_password">Create new password</string>
+    <string name="type_your_email">Type your e-mail:</string>
+    <string name="create_new_password">Create new password</string>
+    <string name="settings">Settings</string>
+    <string name="check_your_email">Check your e-mail to continue!</string>
+    <string name="title_activity_event_list">Choose your event!</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="title_activity_training_list">TrainingListActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+</resources>

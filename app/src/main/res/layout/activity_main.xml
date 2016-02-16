@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="?android:attr/actionBarSize"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/cover_background"
+    tools:context=".Activities.MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/concerts_ibtn"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/concerts_button"
+            android:onClick="onConcertsClick" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:layout_weight="1"
+            android:id="@+id/night_live_ibtn"
+            android:src="@drawable/night_life_button"
+            android:onClick="onNightLiveClick"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            android:id="@+id/meet_ups_ibtn"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/meet_ups_button"
+            android:onClick="onMeetUpsClick"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:id="@+id/others_ibtn"
+            android:src="@drawable/others_button"
+            android:onClick="onOthersClick"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/siv_separate_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f1940f"/>
+
+    <LinearLayout
+        android:id="@+id/ma_featured_top_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Featured Event"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:id="@+id/ma_featured_star_iv"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/featuredstar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ma_featured_event_ll"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ma_thumbnail_iv"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp">
+
+
+
+            <TextView
+                android:id="@+id/ma_featured_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/ma_featured_description"
+                android:layout_below="@+id/ma_featured_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#AFFFFFFF"
+                android:textSize="13sp"/>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

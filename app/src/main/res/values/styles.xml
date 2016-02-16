@@ -1,0 +1,38 @@
+ <!--Poprzedni Action Bar, dziala gdy aktywnosc dziedziczy Activity-->
+
+<resources xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/myTheme.ActionBar</item>
+        <item name="android:actionMenuTextColor">#FFFFFF</item>
+        <item name="android:homeAsUpIndicator">@drawable/abc_ic_ab_back_mtrl_am_alpha</item>
+        <item name="android:actionButtonStyle">@style/myTheme.ActionBar.ActionButtonStyle</item>
+    </style>
+
+    <style name="myTheme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:logo">@drawable/actionbar_logo_small</item>
+        <item name="android:titleTextStyle">@style/myTheme.ActionBar.Text</item>
+    </style>
+
+    <style name="myTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+    <style name = "myTheme.ActionBar.ActionButtonStyle">
+    </style>
+
+
+</resources>
+
+<!--<style name="myTheme.ActionBar.TabTextStyle">-->
+<!--<item name="android:textColor">#FFFFFF</item>-->
+<!--<item name="android:textSize">15sp</item>-->
+<!--<item name="android:text">center</item>-->
+<!--</style>-->
+
+<!--<style name="myTheme.ActionBar.TabStyle">-->
+<!--<item name="android:statusBarColor">#F1940F</item>-->
+<!--<item name="android:backgroundSplit">#F1940F</item>-->
+<!--</style>-->
